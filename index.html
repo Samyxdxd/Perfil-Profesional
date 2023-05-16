@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">💔</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://i.imgur.com/VqfDkOz.jpg" alt="">
+            </div>
+            <h1>SAMUEL CORTEZ</h1>
+            <h2>Ingeniero en Informatica - Experto en HTML </h2>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Samuel Cortez.</span> Un desarrollador web apasionado con experiencia en la creación de sitios web funcionales y atractivos. Tengo habilidades en lenguajes como HTML, CSS, JavaScript y Python, así como en el uso de frameworks populares. Además, poseo habilidades en el diseño de interfaces de usuario. Soy un solucionador de problemas y un comunicador efectivo, siempre buscando comprender las necesidades de mis clientes. Estoy emocionado por formar parte del campo del desarrollo web y busco oportunidades para crecer profesionalmente. Si necesitas un desarrollador web comprometido y creativo, estaré encantado de ayudarte a convertir tus ideas en realidad digital. ¡Contáctame y trabajemos juntos!</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            08-08-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+56) 9 7326 3606
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            samuelcortezc22@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            540 Sagitario, Puente Alto
+                        </li>
+                        <li>
+                            <strong>Ocupación</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <form style="display: inline" action="Curriculum%20Vitae.pdf"> 
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </form>
+
+    </section>
+
+    
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <table class="Responsive">
+                    <caption>
+                        <h2>Skills</h2>
+                            <div class="fila">
+                                <div class="col">
+                                    <h3>Technical Skills</h3>
+                                    <div class="skill">
+                                        <span>Javascript</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>HTML & CSS</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>89%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Photoshop</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>95%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <h3>Professional Skills</h3>
+                                    <div class="skill">
+                                        <span>Comunicación</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>80%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Trabajo en Equipo</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>65%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Creatividad</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>79%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Dedicación</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                <span>70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </caption>
+                </table>
+            </div>
+        </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Básica</h4>
+                        <span class="casa">Colegio polivalente Siembra</span>
+                        <span class="fecha">2008 - 2016</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Media</h4>
+                        <span class="casa">Escuela Industrial Las Nieves</span>
+                        <span class="fecha">2017 - 2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Superior</h4>
+                        <span class="casa">IP CFT Santo Tomás</span>
+                        <span class="fecha">2022 - cursando</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Jefe</h4>
+                        <span class="casa">Nintendo</span>
+                        <span class="fecha">2015 - 2016</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Guardia</h4>
+                        <span class="casa">Disney Land</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Raider</h4>
+                        <span class="casa">BAKER</span>
+                        <span class="fecha">2008 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://i.imgur.com/caBi4xr.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Pagina Web</h3>
+                        <p>Desarrollador</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://i.imgur.com/uxYhq8g.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollador de FEIBUK</h3>
+                        <p>Programador</p>
+                    </div>
+                </div>
+               
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Responsive Desing</h3>
+                        <p>Diseñador Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+
+            <div class="fila">
+                <div class="col">
+                <form action="https://formspree.io/f/mlekvook" method="POST">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tú Nombre" required>
+                    <input type="tel" id="numero" name="numero" placeholder="Número telefónico" required>
+                    <input type="email" id="email" name ="email" placeholder="Dirección de correo" required>
+                    <input type="text" id="tema" name="tema" placeholder="Tema" required>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+
+                
+                  
+                </div>
+                <div class="col">
+                    <img src="https://i.imgur.com/vao3AFG.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Sagitario 540, Santiago, Puente Alto
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: (+56) 9 7326 3606
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: samuelcortezc22@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
